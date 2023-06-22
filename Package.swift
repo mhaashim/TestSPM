@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "Haashim",
             dependencies: [],
-        exclude: ["Myfile.swift","Haashim.swift"]),
+        exclude: ["Myfile.swift"]),
         .testTarget(
             name: "HaashimTests",
             dependencies: ["Haashim"]),
